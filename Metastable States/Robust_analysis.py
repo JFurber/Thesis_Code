@@ -17,8 +17,8 @@ import d3s.algorithms as algorithms
 import time, sys
 
 #%% Import Data
-dataX = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Woodchester/EDMD/Results/Woodchester_X.csv', header=None) #paste path file here
-dataY = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Woodchester/EDMD/Results/Woodchester_Y.csv',header=None) #paste path file here
+dataX = pd.read_csv('.csv', header=None) #paste path file here
+dataY = pd.read_csv('.csv',header=None) #paste path file here
 
 site = 'WC_Total'
 
