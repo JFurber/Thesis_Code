@@ -18,51 +18,9 @@ import matplotlib as mpl #needed for VSCode
 
 
 #Import Data - full data set
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F2/F2_Total_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_Total_eigenvalues15_real.csv',header=None) #paste path file here
-X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Maria OHagan Ireland/EDMD/Results/Ireland_Total_eigenvalues_real.csv',header=None) #paste path file here
 
-#WC
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_Total_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_2018_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_2019_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_2020_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_2021_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/EDMD/Results/Woodchester_2022_eigenvalues15_real.csv',header=None) #paste path file here
+X = pd.read_csv('.csv',header=None) #paste path file here
 
-#NI
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Maria OHagan Ireland/Filtered1_Results/EDMD/Data/Ireland_Total_eigenvalues45_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Maria OHagan Ireland/Filtered1_Results/EDMD/Data/Ireland_2014_eigenvalues45_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Maria OHagan Ireland/Filtered1_Results/EDMD/Data/Ireland_2015_eigenvalues45_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Maria OHagan Ireland/Filtered1_Results/EDMD/Data/Ireland_2016_eigenvalues45_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Maria OHagan Ireland/Filtered1_Results/EDMD/Data/Ireland_2017_eigenvalues45_real.csv',header=None) #paste path file here
-
-#C2
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C2/C2_Total_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C2/C2_2013_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C2/C2_2014_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C2/C2_2015_eigenvalues15_real.csv',header=None) #paste path file here
-
-#C4
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C4/C4_Total_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C4/C4_2014_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C4/C4_2015_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C4/C4_2016_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/C4/C4_2017_eigenvalues15_real.csv',header=None) #paste path file here
-
-#F1
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F1/F1_Total_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F1/F1_2013_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F1/F1_2014_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F1/F1_2015_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F1/F1_2016_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F1/F1_2017_eigenvalues15_real.csv',header=None) #paste path file here
-
-#F2
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F2/F2_Total_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F2/F2_2013_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F2/F2_2014_eigenvalues15_real.csv',header=None) #paste path file here
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/EDMD/Cornwall_EDMD/F2/F2_2015_eigenvalues15_real.csv',header=None) #paste path file here
 
 X = X.to_numpy()
 
