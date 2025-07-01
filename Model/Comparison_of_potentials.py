@@ -13,7 +13,7 @@ from scipy.optimize import minimize
 
 
 # Load the dictionary from the file
-with open('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/2.CODING/dynamical-systems/Comparison of Potentials/variables.pkl', 'rb') as f:
+with open('.pkl', 'rb') as f:
     variables = pickle.load(f)
 
 # Access the variables from the dictionary
