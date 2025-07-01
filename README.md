@@ -21,3 +21,5 @@ Files include:
 </ul>
 
 You will also require to download the folder d3s from https://github.com/sklus/d3s in order to use the EDMD.py file.
+
+The GPS tracking data of badger movements, collected from Cornwall, are lodged on Movebank (www.movebank.org; Movebank Project 158275131). For the GPS tracking data of badger movements, collected from Woodchester, please contact data access at APHA on badgerdata@apha.gov.uk. The GPS tracking data of badger movements, collected from Northern Ireland, are lodged on Movebank (www.movebank.org; Movebank Project 5019193945).
