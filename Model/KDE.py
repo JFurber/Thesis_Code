@@ -30,16 +30,13 @@ import d3s.kernels as kernals
 import time, sys
 
 #%% Step 1: Import the Data
-#%Import Data - Individual Animals
-# os.chdir("/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/Data/Badger Data From Dez/Data/2.Split_Filtered_DOP_SATT_DIST") #Paste folder path here
-# data = pd.read_csv('Animal26C.csv') #Name of individual data file
 
 start = time.time()
 
 site = 'C4'
 
 #Import Data - full data set
-data = pd.read_csv('/user/HS502/jf01028/Documents/Cornwall_Potential/Cornwall_C4.csv') #paste path file here
+data = pd.read_csv('file.csv') #paste path file here
 
 x = data['Easting']
 x = pd.Series.to_numpy(x)
