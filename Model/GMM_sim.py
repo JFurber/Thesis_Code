@@ -20,7 +20,7 @@ time_str = now.strftime("%H%M%S")
 
 
 # Add the path to the custom module if necessary
-sys.path.append('/user/HS502/jf01028/Documents/Simulations/d3s')
+sys.path.append('/Simulations/d3s')
 
 # Verify that the d3s module is available
 try:
@@ -30,7 +30,7 @@ except ModuleNotFoundError:
     sys.exit(1)
 
 # Path to your .spydata file
-spydata_file_path = '/user/HS502/jf01028/Documents/Simulations/Data_M_C_W_KDE_withS.spydata'
+spydata_file_path = '/Simulations/Data_M_C_W_KDE_withS.spydata'
 
 # Load the .spydata file
 def load_spydata(file_path):
