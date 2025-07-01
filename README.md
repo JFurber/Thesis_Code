@@ -3,14 +3,21 @@ Files for the analysis of GPS badger movement in relation to the Thesis by Jessi
 
 Files include:
 <ul>
-  <li> Conversion of coordinates from Latitude/Longitude to Easting/Northing (and back) - <i>R coding</i> </li>
-  <li> Interpolation of coordinates for correct format of data for extended dynamic mode decomposition - <i>Matlab</i> </li>
-  <li> Code to estimate the diffusion: </li>
+  <li> Initial modelling strategies (Chapter 3) </li>
+  <li> Conversion of coordinates from Latitude/Longitude to Easting/Northing (and back) (Chapter 4) - <i>R coding</i> </li>
+  <li> Code to estimate metastable states (Chapter 5), including: </li>
     <ol>
-      <li> separetely or as one whole file - <i> Python </i> </li>
-      <li> automatically splitting the file into year and month for each individual - <i> Python </i> </li>
+      <li> Interpolation of coordinates for correct format of data for extended dynamic mode decomposition - <i>Matlab</i> </li>
+      <li> Generation of metastable states via extended dynamic mode decomposition (EDMD) - <i> Python </i> </li>
     </ol>
-  <li> Generation of metastable states via extended dynamic mode decomposition (EDMD) - <i> Python </i> </li>
+  <li> Code to calculate the model (Chapter 6), including: </li>
+    <ol>
+      <li> Estimation of diffusion and statistical analysis - <i> Python, Matlab, and R </i> </li>
+      <li> Creation of KDE and GMM potential - <i> Python</i> </li>
+      <li> Estimation of mountain passes - <i> Python</i> </li>
+      <li> Comparison of potentials  - <i> Python</i> </li>
+      <li> Simulation (with Attraction and Repuslion (AR) and without) - <i> Python</i> </li>
+    </ol>
 </ul>
 
 You will also require to download the folder d3s from https://github.com/sklus/d3s in order to use the EDMD.py file.
