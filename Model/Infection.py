@@ -14,11 +14,7 @@ import pandas as pd
 import scipy
 import scipy.spatial.distance
 
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Woodchester/Gaussian Mixture Models/Simulations/Investigation of Strength/GMM_AR_D071124_T132439_N10_num100000_step010_stren100000.csv', header=None)
-
-# X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Woodchester/Gaussian Mixture Models/Simulations/INFECTION/GMM_AR_D171224_T100123_N66_num525600_step010_stren00000.csv', header=None)
-
-X = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Woodchester/Data/Split by exact datetime/datapivot0_notime_matrix.csv',header=None)
+X = pd.read_csv('.csv',header=None)
 
 
 X = X.to_numpy()
@@ -148,7 +144,7 @@ import matplotlib.pyplot as plt
 import scipy.spatial.distance
 
 # Define the folder containing the files
-folder_path = '/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Woodchester/Gaussian Mixture Models/Simulations/INFECTION/First5'
+folder_path = 'First5'
 
 # List all files in the folder
 files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
