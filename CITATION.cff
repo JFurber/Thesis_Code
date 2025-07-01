@@ -4,13 +4,8 @@ authors:
 - family-names: "Furber"
   given-names: "Jessica Rachel"
   orcid: "https://orcid.org/0009-0008-4003-7920"
-- family-names: "North"
-  given-names: "Sophie"
-- family-names: "Lo Iacono"
-  given-names: "Giovanni"
-  orcid: "https://orcid.org/0000-0002-6150-2843"
-title: "Sensitivity analysis for an ecoepidemiological model of Rift Valley fever virus transmission"
+title: "Mathematical Analysis of Fine-Scale Badger Movement Data"
 version: 1.0
 doi: 
 date-released: 
-url: "https://github.com/JFurber/Sensitivity-Analysis-RVFV"
+url: "https://github.com/JFurber/Thesis_Code"
