@@ -90,12 +90,8 @@ def plot_gmm1(gmm, X, label=True, ax=None):
 
 #%%
 
-# data = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data From Dez/Data/Woodchester_UTM.csv')
-# data = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/Data/Cornwall_C2.csv')
-# data = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/Data/C4_filtered_UTM.csv')
-# data = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/Data/F1_filtered_UTM.csv')
-# data = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/Badger Data from Cornwall/Data/Cornwall_F2.csv')
-data = pd.read_csv('/Users/jf01028/Library/CloudStorage/OneDrive-UniversityofSurrey/0.Data/0.Northern Ireland/Data/Ireland_AUGUST2024.csv')
+
+data = pd.read_csv('file.csv')
 
 x = data['Easting0']
 x = pd.Series.to_numpy(x)
